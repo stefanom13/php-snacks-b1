@@ -1,6 +1,13 @@
 .red{
-    border-color: 2px solid red;
+    border: 2px solid red;
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 20px;
 }
 .grey{
-    border-color: 2px solid grey;
+    border: 2px solid grey;
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 20px;
+
 }

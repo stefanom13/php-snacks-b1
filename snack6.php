@@ -40,6 +40,7 @@ insegnanti in un rettangolo grigio e i PM in un rettangolo verde. -->
   <link rel="stylesheet" href="style6.css">
 </head>
 <body>
+    <h2>teachers</h2>
   <?php
   for ($i = 0; $i<count($db['teachers']); $i++){
     ?>
@@ -48,7 +49,7 @@ insegnanti in un rettangolo grigio e i PM in un rettangolo verde. -->
     <?php
   }
   ?>  
-  <hr>
+    <h2>pm</h2>
   <?php
   for ($i = 0; $i<count($db['pm']); $i++){
     ?>
