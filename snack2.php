@@ -17,7 +17,9 @@ if ( strlen($name) >= 3 && strpos($email, '.') && strpos($email, '@') && is_nume
 } else {
     $result = "Accesso negato";
 }
-
+var_dump($name);
+var_dump($email);
+var_dump($age);
 var_dump($result);
 
 
