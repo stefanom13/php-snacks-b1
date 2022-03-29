@@ -13,14 +13,14 @@ $age = $_GET['age'];
 // is_numeric - trova se una variabile è un numero o una stringa numerica
 
 if ( strlen($name) >= 3 && strpos($email, '.') && strpos($email, '@') && is_numeric($age) == true ) {
-    $result = "Accesso riuscito";
+   echo $result = "Accesso riuscito";
 } else {
-    $result = "Accesso negato";
+   echo $result = "Accesso negato";
 }
 var_dump($name);
 var_dump($email);
 var_dump($age);
-var_dump($result);
+// var_dump($result);
 
 
 ?>
