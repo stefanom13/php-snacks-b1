@@ -55,6 +55,18 @@ $posts = [
     <title>Document</title>
 </head>
 <body>
-    
+<?php
+
+    for($i = 0; $i<count($posts['10/01/2019']); $i++){
+      ?>
+      <div>
+        <?php echo $posts['10/01/2019'][$i]['title']; ?> -
+        <?php echo $posts['10/01/2019'][$i]['author']; ?> -
+        <?php echo $posts['10/01/2019'][$i]['text']; 
+       ?>
+      </div>
+      <?php
+    }
+  ?>
 </body>
 </html>
