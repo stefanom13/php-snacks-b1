@@ -16,7 +16,9 @@ suddividerlo in tanti paragrafi. Ogni punto un nuovo paragrafo. -->
 
     $paragrafoArray = explode('.', $paragrafo);
 
-    var_dump($paragrafoArray)
+    
+    var_dump($paragrafo);
+    var_dump($paragrafoArray);
 
 
 ?>

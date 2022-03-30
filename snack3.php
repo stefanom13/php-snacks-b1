@@ -46,6 +46,11 @@ $posts = [
 ];
 ?>
 
+<!-- $keys = array_keys($posts) ;-->
+<!-- si cicla keys nel for  -->
+<!-- stampare anche data   -->
+<!-- utilizzare anche forEach -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

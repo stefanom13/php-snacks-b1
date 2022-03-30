@@ -45,7 +45,7 @@ $match =[
 <body>
     
     <?php 
-     for($i = 0; $i < sizeof($match); $i++){
+     for($i = 0; $i < count($match); $i++){
        echo $match[$i]['casa'] .' - ' .$match[$i]['ospite'] ." = " .$match[$i]['puntiCasa'] ." - " .$match[$i]['puntiOspite']." || ";
         }
     ?>

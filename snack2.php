@@ -4,10 +4,11 @@ chiocciola e che age sia un numero. Se tutto è ok stampare “Accesso riuscito�
  “Accesso negato” -->
 <?php 
 
-$name = $_GET['name'];
-$email = $_GET['email'];
-$age = $_GET['age'];
+$name = isset ($_GET['name']) ? $_GET['name'] : '' ;
+$email = isset ($_GET['email']) ? $_GET['email'] : '' ;
+$age = isset ($_GET['age']) ? $_GET['age'] : '' ;
 
+// con isset controlliamo che i valori siano inseriti, altrimenti restituiamo stringa vuota.(operatore ternario)
 // strlen - ottieni lunghezza della stringa
 // strpos - trova elemento passato all'interno di una stringa
 // is_numeric - trova se una variabile è un numero o una stringa numerica
